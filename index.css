@@ -1,0 +1,49 @@
+:root{
+    --font:#DCDCDC
+}
+
+body{
+    margin: 0;
+}
+nav{
+    opacity: 0.8;
+    left: 0;
+    top: 0;
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-style: bold;
+    color: var(--font);
+    margin-right:205px ;
+}
+.user{
+    margin-left: 340px;
+    width: 33;
+    height: 33;
+}
+ul{
+    color: var(--font);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+li{
+    text-shadow: 4 4 #000000;
+    font-size: 20px;
+    font-style: bold;
+    margin-left: 41px;
+    margin-right:41px ;
+}
+.logo{
+    width: 89px;
+    height: 50px;
+    margin-left: 21px;
+    margin-right: 15px;
+}
+
+.background1{
+    width: 100vw;
+    height: 868px;
+}
